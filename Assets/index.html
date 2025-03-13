@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReaL State</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#">Cagri.</a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="ri-menu-3-line"></i>
+            </div>
+        </div>
+
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#home">ANASAYFA</a></li>
+            <li><a href="#service">SERVİSLER</a></li>
+            <li><a href="#property">ÖZELLİKLER</a></li>
+            <li><a href="#blog">BLOGLAR</a></li>
+            <li><a href="#contact">İLETİŞİM</a></li>
+        </ul>
+    </nav>
+
+    <header id="header">
+        <div class="header__image"></div>
+        <div class="header__content">
+            <h1>Hayallerinizdeki lüks evlere sahip olmanın en kolay yolu</h1>
+        </div>
+
+        <form action="/">
+            <div class="input__group">
+                <label for="location">Konum</label>
+                <input type="text" placeholder="Konumu seçin">
+            </div>
+
+            <div class="input__group">
+                <label for="propertyType">Türü</label>
+                <input type="text" placeholder="Türünü seçin">
+            </div>
+
+            <div class="input__group">
+                <label for="price">Max Fiyat</label>
+                <input type="text" placeholder="Fiyatı seçin">
+            </div>
+
+            <button class="btn">
+                <i class="ri-search-line"></i>
+            </button>
+        </form>
+
+    </header>
+
+    <section class="service">
+        <div class="section__container service__container" id="service">
+            <h2 class="section__header">Nasıl sahip olabilirim?</h2>
+            <div class="service__grid">
+                <div class="service__card">
+                    <img src="/Assets/business.png" alt="service">
+                    <h4>Mülk değerlendirme</h4>
+                    <p>
+                        Uzman kadromuzla birlikte
+                        mülkünüzün piyasa değeri hakkında detaylı bir değerlendirme yapalım.
+
+                    </p>
+                </div>
+
+                <div class="service__card">
+                    <img src="./people.png" alt="service">
+                    <h4>Destek ekibiyle koordine</h4>
+                    <p>
+                        Satın alma , destek ve satış işlemlerinde size her adımınızda yanınızda
+                        olacak profesyonel bir emlakçıyla tanışın.
+
+                    </p>
+                </div>
+
+                <div class="service__card">
+                    <img src="./handshake.png" alt="service">
+                    <h4>Noter onaylı sonuç</h4>
+                    <p>
+                        24 saat gibi bir süre içerisinde lüks bir evin sahibi ol
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience">
+        <div class="experience__image"></div>
+        <div class="experience__content">
+            <h2 class="section__header">Size <br>en iyi deneyimi sunuyoruz</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                Quis hendrerit dolor magna eget est lorem ipsum dolor sit.
+                Volutpat odio facilisis mauris sit amet massa.
+                Commodo odio aenean sed adipiscing diam donec adipiscing tristique.
+                Mi eget mauris pharetra et.
+            </p>
+            <div class="experience__btn">
+                <button class="btn">Tüm gayrimenkuller</button>
+            </div>
+        </div>
+
+        <div class="experience__stats">
+            <div>
+                <h4>550+</h4>
+                <p>İnşa edilen gayrimenkuller</p>
+            </div>
+
+            <div>
+                <h4>12</h4>
+                <p>Kazanılan Ödüller</p>
+            </div>
+
+            <div>
+                <h4>+20</h4>
+                <p>Yıllık Tecrübe</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container property__container" id="property">
+        <h2 class="section__header">İlanlarımız</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="property__card">
+                        <img src="./property-2.jpg" alt="property">
+                        <div class="property__details">
+                            <div class="property__details__header">
+                                <h4>Lüks Villa 1</h4>
+                                <h5>1,250.000 ₺</h5>
+                            </div>
+
+                            <div class="property__amenities">
+                                <div>
+                                    <span><i class="ri-hotel-bed-line"></i></span>6
+                                </div>
+
+                                <div>
+                                    <span><i class="ri-showers-line"></i></span>2
+                                </div>
+
+                                <div>
+                                    <span><i class="ri-dashboard-fill"></i></span>4000 ft
+                                </div>
+                            </div>
+
+                            <div class="property__location">
+                                <span><i class="ri-map-pin-5-line"></i></span>Çankaya,Ankara
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="property__card">
+                        <img src="./property-3.jpg" alt="property">
+                        <div class="property__details">
+                            <div class="property__details__header">
+                                <h4>Lüks Villa 2</h4>
+                                <h5>1,350.000 ₺</h5>
+                            </div>
+
+                            <div class="property__amenities">
+                                <div>
+                                    <span><i class="ri-hotel-bed-line"></i></span>7
+                                </div>
+
+                                <div>
+                                    <span><i class="ri-showers-line"></i></span>3
+                                </div>
+
+                                <div>
+                                    <span><i class="ri-dashboard-fill"></i></span>6000 ft
+                                </div>
+                            </div>
+
+                            <div class="property__location">
+                                <span><i class="ri-map-pin-5-line"></i></span>Beşiktaş,İstanbul
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="property__card">
+                        <img src="./property-4.jpg" alt="property">
+                        <div class="property__details">
+                            <div class="property__details__header">
+                                <h4>Lüks Villa 3</h4>
+                                <h5>1,150.000 ₺</h5>
+                            </div>
+
+                            <div class="property__amenities">
+                                <div>
+                                    <span><i class="ri-hotel-bed-line"></i></span>5
+                                </div>
+
+                                <div>
+                                    <span><i class="ri-showers-line"></i></span>2
+                                </div>
+
+                                <div>
+                                    <span><i class="ri-dashboard-fill"></i></span>3000 ft
+                                </div>
+                            </div>
+
+                            <div class="property__location">
+                                <span><i class="ri-map-pin-5-line"></i></span>Çankaya,Ankara
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="property__card">
+                        <img src="./property-5.jpg" alt="property">
+                        <div class="property__details">
+                            <div class="property__details__header">
+                                <h4>Lüks Villa 4</h4>
+                                <h5>1,250.000 ₺</h5>
+                            </div>
+
+                            <div class="property__amenities">
+                                <div>
+                                    <span><i class="ri-hotel-bed-line"></i></span>6
+                                </div>
+
+                                <div>
+                                    <span><i class="ri-showers-line"></i></span>2
+                                </div>
+
+                                <div>
+                                    <span><i class="ri-dashboard-fill"></i></span>4000 ft
+                                </div>
+                            </div>
+
+                            <div class="property__location">
+                                <span><i class="ri-map-pin-5-line"></i></span>Çankaya,Ankara
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe" id="contact">
+        <h2 class="section__header">Bizi takip ederek<br>gelismelerden haberdar olabilirsin</h2>
+        <form action="/">
+            <input type="text" placeholder="E-mail adresini gir">
+            <button class="btn">Takip Et</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <a href="#">Cagri.</a>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            Quis hendrerit dolor magna eget est lorem ipsum dolor sit.
+                            Volutpat odio facilisis mauris sit amet massa.
+                        </p>
+                        <ul class="footer__socials">
+                            <li>
+                                <a href="#"><i class="ri-linkedin-line"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="ri-github-fill"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4>SİRKETİMİZ</h4>
+                <ul class="footer__links">
+                    <li><a href="#"></a>Hakkımızda</li>
+                    <li><a href="#"></a>Hizmetimiz</li>
+                    <li><a href="#"></a>Nasıl çalışırız?</li>
+                    <li><a href="#"></a>Referans</li>
+                    <li><a href="#"></a>Bize Ulaş</li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>DESTEK</h4>
+                <ul class="footer__links">
+                    <li><a href="#"></a>FAQs</li>
+                    <li><a href="#"></a>Emlak İlanları</li>
+                    <li><a href="#"></a>Alıcının rehberi</li>
+                    <li><a href="#"></a>Satıcının rehberi</li>
+                    <li><a href="#"></a>Gizlilik Politikası</li>
+                    <li><a href="#"></a>Şartlar & Koşullar</li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>İLETİSİM</h4>
+                <div class="footer__property__detail">
+                    <div>
+                        <h5>Ana Ofisimiz</h5>
+                        <p>Vatan Mahallesi , Atatürk caddesi , Yurt Sokak ,
+                            No:19 Beşiktaş/İstanbul
+                        </p>
+                        <br>
+                        <p style="font-weight: bold;">Telefon: +212 013 67 34</p>
+                        <p style="font-weight: bold;">E-Mail: cagricompany@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bar">
+            Copyright © 2025 Çağrı Aydın. Tüm hakları saklıdır.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
